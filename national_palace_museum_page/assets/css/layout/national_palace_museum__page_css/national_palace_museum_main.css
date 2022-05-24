@@ -247,5 +247,5 @@ input[type='radio'] {
 }
 
 .main_picture img {
-  animation: pictureAnimation 30s ease-in-out infinite;
+  animation: pictureAnimation 40s ease-in-out infinite;
 }
