@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>国立故宮博物館</title>
+    <link
+      rel="stylesheet"
+      href="assets/css/national_palace_museum_page_style.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monofett&display=swap"
+      rel="stylesheet"
+    />
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar_logo">
+        <li>
+          <a href="http://127.0.0.1:5500/index.html"
+            ><img
+              src="assets/images/index-images/home-icon-2.png"
+              alt="home-logo"
+          /></a>
+        </li>
+      </ul>
+
+      <ul class="page_label">
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverStation()"
+              onmouseout="mouseOutStation()"
+            ></li>
+          </a>
+          <p class="label_station">新北投駅</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverLibrary()"
+              onmouseout="mouseOutLibrary()"
+            ></li>
+          </a>
+          <p class="label_Library">北投図書館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverSpaMuseum()"
+              onmouseout="mouseOutSpaMuseum()"
+            ></li>
+          </a>
+          <p class="label_SpaMuseum">北投温泉博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverPlumBossom()"
+              onmouseout="mouseOutPlumBossom()"
+            ></li>
+          </a>
+          <p class="label_PlumBossom">梅庭</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverNationalPalaceMuseum()"
+              onmouseout="mouseOutNationalPalaceMuseum()"
+            ></li>
+          </a>
+          <p class="label_NationalPalaceMuseum">国立故宮博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverKnowledgeGod()"
+              onmouseout="mouseOutKnowledgeGod()"
+            ></li>
+          </a>
+          <p class="label_KnowledgeGod">文昌宮</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverPocketMuseum()"
+              onmouseout="mouseOutPocketMuseum()"
+            ></li>
+          </a>
+          <p class="label_PocketMuseum">袖珍博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverConfucius()"
+              onmouseout="mouseOutConfucius()"
+            ></li>
+          </a>
+          <p class="label_Confucius">孔子廟</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverChineseCupid()"
+              onmouseout="mouseOutChineseCupid()"
+            ></li>
+          </a>
+          <p class="label_ChineseCupid">霞海城隍廟</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOver207Museum()"
+              onmouseout="mouseOut207Museum()"
+            ></li>
+          </a>
+          <p class="label_207Museum">207博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverMazu()"
+              onmouseout="mouseOutMazu()"
+            ></li>
+          </a>
+          <p class="label_Mazu">天后宮</p>
+        </div>
+      </ul>
+
+      <ul class="navbar_list-button" onclick="navbarListButton()">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </nav>
+    <aside class="aside">
+      <ul class="aside_text">
+        <li><a href="http://127.0.0.1:5500/index.html">ホームページ</a></li>
+        <li></li>
+        <li><a href="http://127.0.0.1:5500/list.html">List 目次</a></li>
+        <li></li>
+        <li><a href="">制作計画書について</a></li>
+      </ul>
+    </aside>
+
+    <main class="main">
+      <ul class="main_aside">
+        <li class="main_aside_note">
+          <img
+            src="assets/images/national_palace_museum_image/note.png"
+            alt="note"
+          />
+          <div>
+            <p class="note_title">国立故宮博物館</p>
+            <p class="note_date">日付：　2021/11/02</p>
+            <p class="note_annotation_title">スタンプ注釈：</p>
+            <p class="note_annotation_word">
+              　トルコ石を埋め込む金属線樽は戦国中期の酒器だ。<br />スタンプの起源は商朝だ。
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="main_stamp">
+        <input type="radio" id="stamp_control-1" name="control" checked />
+        <input type="radio" id="stamp_control-2" name="control" />
+
+        <img
+          class="slide_stamp"
+          src="assets/images/national_palace_museum_image/national_stamp/national_palace_museum-stamp-01.jpg"
+          alt="national_palace_museum-stamp-01"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/national_palace_museum_image/national_stamp/national_palace_museum-stamp-02.jpg"
+          alt="national_palace_museum-stamp-02"
+        />
+
+        <div class="stamp_controls-visible">
+          <label for="stamp_control-1"></label>
+          <label for="stamp_control-2"></label>
+        </div>
+      </ul>
+
+      <ul class="main_word">
+        <p class="main_word_title">長い歴史の宝</p>
+        <p class="main_word_text">
+          　展覧エリアは地下一階から三階まで。地下一階は児童に芸術を学ぶ空間だ。一階は清朝に皇帝と皇族の家具や古玩や、皇帝と後宮の妃たちの飾り物や、仏像や書類文献などが展示されている。今回は乾隆帝収集した集瓊藻という多宝閣を名称として展覧である。集瓊藻の展示品は華やかで精緻である。特には、多宝閣の形の多様性やゲーム性や精緻度に驚いた。宮廷ドラマのファンにとって、宮廷ドラマ中の本物がこの目で見られるのはとても嬉しい。実は、ずっと多宝格も楽しみにしている。今回の美しい展示品による宮廷生活を想像できる。十分に満足していた。<br />　それに、書類は《四庫全書》や詔書や官僚の記録文献などがある。特別なのは、当時の事件の記録書があって、現場地の調査報告もある。故宮の文字紹介で当時の調査官のように調査が始まる。他には、巫女の毒の使い方や、当時に値段が高くなる本は本物か偽物かをよく考えて必要がある。それはとても面白いね。<br />　二階は明朝と宋朝時代の陶磁器と色々な有名な書画が展示されている。今度の特別展として故宮の至宝と言われる范寬の《谿山行旅》と郭熙の《早春図》と李唐の《萬壑松風》は六週間にわたって展示される。この三家は北宋時代の「巨碑式」山水画の典範だと言われている。同時に、三家の影響を受けて、後世の人に臨模して九枚作品も展示されている。この三枚の名画はもうすぐ千年になるもので貴重な名画である。いい状態に保存するため、展示するごとに少なくとも三年間再展覧ができる。今回で見られるのは運が良かった。<br />　最後は、三階で古代の青銅器と玉器である。ここに故宮で最も人気の文物は「肉形石」と「翠玉白菜」と「毛公鼎」がある。故宮は広きすぎて、全部の展示品を見るに、一日かからなければいけないんだ。残念ながら、今度はもう一度見学直して、南区宮も見に行こう。
+        </p>
+      </ul>
+
+      <ul class="main_picture">
+        <img
+          src="assets/images/national_palace_museum_image/national_picture/national_palace_museum_picture-01.JPG"
+          alt="national_palace_museum_picture-01"
+        />
+        <img
+          src="assets/images/national_palace_museum_image/national_picture/national_palace_museum_picture-02.JPG"
+          alt="national_palace_museum_picture-02"
+        />
+        <img
+          src="assets/images/national_palace_museum_image/national_picture/national_palace_museum_picture-03.JPG"
+          alt="national_palace_museum_picture-03"
+        />
+        <img
+          src="assets/images/national_palace_museum_image/national_picture/national_palace_museum_picture-04.JPG"
+          alt="national_palace_museum_picture-04"
+        />
+        <img
+          src="assets/images/national_palace_museum_image/national_picture/national_palace_museum_picture-05.JPG"
+          alt="national_palace_museum_picture-05"
+        />
+        <img
+          src="assets/images/national_palace_museum_image/national_picture/national_palace_museum_picture-06.JPG"
+          alt="national_palace_museum_picture-06"
+        />
+        <img
+          src="assets/images/national_palace_museum_image/national_picture/national_palace_museum_picture-07.JPG"
+          alt="national_palace_museum_picture-07"
+        />
+        <img
+          src="assets/images/national_palace_museum_image/national_picture/national_palace_museum_picture-08.JPG"
+          alt="national_palace_museum_picture-08"
+        />
+        <img
+          src="assets/images/national_palace_museum_image/national_picture/national_palace_museum_picture-09.JPG"
+          alt="national_palace_museum_picture-09"
+        />
+        <img
+          src="assets/images/national_palace_museum_image/national_picture/national_palace_museum_picture-10.JPG"
+          alt="national_palace_museum_picture-10"
+        />
+      </ul>
+    </main>
+
+    <footer>
+      <div>© 2022　110年度　淡江大学日本語文学系卒業制作</div>
+    </footer>
+
+    <script src="assets/javascript/index_javascript.js"></script>
+    <script src="assets/javascript/national_palace_museum_javascript.js"></script>
+    <script></script>
+  </body>
+</html>
